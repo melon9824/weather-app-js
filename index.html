@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="weather app for learning JavaScript">
+    <title>weather-app-js</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- app name -->
+    <h1 class="app-name">Weather App</h1>
+    <!-- card -->
+    <div class="card">
+        <!-- search -->
+        <div class="search flex">
+            <input class="search-box" type="text" placeholder="Enter city name" spellcheck="false">
+
+            <button class="search-btn flex">
+                <img src="img/search.png" alt="search image">
+            </button>
+        </div>
+
+        <!-- error message -->
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <!-- weather -->
+        <div class="weather">
+            <img src="img/rain.png" class="weather-icon">
+
+            <h2 class="city">Dhaka</h2>
+            <h1 class="temp">22°c</h1>
+
+            <div class="details flex">
+                <!-- humidity -->
+                <div class="col flex">
+                    <img src="img/humidity.png" alt="humidity image">
+
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <!-- wind -->
+                <div class="col flex">
+                    <img src="img/wind.png" alt="humidity image">
+
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <a href="#"><b>agile</b>Point.</a>&bullet; June 29, 2023</p>
+        <p><a href="#">Khorshed Alam</a></p>
+    </footer>
+
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- 23:29 -->
